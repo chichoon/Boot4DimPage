@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    
+    height: 6000px;
+}
+
+#header {
+    background-color: #EEEEEE;
+    padding: 20px 20px 20px 20px;
+
+    position: fixed;
+    width: 100%;
+
+    box-shadow: 0px 1px 10px #bebebe;
+
+}
+
+#header > img {
+    cursor: pointer;
+}
+
+#header > .header_button {
+    display: inline;
+    position: absolute;
+    left: 75%;
+}
+.login_btn {
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+}
+.signup_btn {
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+
+    position: relative;
+    left: 10px;
+}
